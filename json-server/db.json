@@ -1,0 +1,240 @@
+{
+  "hoteis": [
+    {
+      "nome": "Hotel Rio Verde",
+      "id": "1",
+      "cidade": "Rio Verde",
+      "disponibilidade": true,
+      "quartos": [
+        {
+          "numero": 1,
+          "reservas": [
+            "01/01/2024"
+          ]
+        },
+        {
+          "numero": 2,
+          "reservas": [
+            "01/01/2026",
+            "01/01/2027",
+            "01/01/2029",
+            "01/01/2030",
+            "01/01/2031",
+            "01/01/2032",
+            "01/01/2033",
+            "01/01/2034",
+            "01/01/2035"
+          ]
+        },
+        {
+          "numero": 3,
+          "reservas": [
+            "01/01/2024"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Hotel Aparecida",
+      "id": "2",
+      "cidade": "Rio Verde",
+      "disponibilidade": true,
+      "quartos": [
+        {
+          "numero": 1,
+          "reservas": [
+            "01/01/2024"
+          ]
+        },
+        {
+          "numero": 2,
+          "reservas": [
+            "01/01/2024"
+          ]
+        },
+        {
+          "numero": 3,
+          "reservas": [
+            "01/01/2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Hotel Lagoa",
+      "cidade": "Rio Verde",
+      "disponibilidade": true,
+      "quartos": [
+        {
+          "numero": 1,
+          "reservas": [
+            "01/01/2024"
+          ]
+        },
+        {
+          "numero": 2,
+          "reservas": [
+            "01/01/2024",
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2028"
+            ],
+            [
+              "01/01/2029"
+            ]
+          ]
+        },
+        {
+          "numero": 3,
+          "reservas": [
+            "01/01/2024"
+          ]
+        }
+      ]
+    }
+  ],
+  "notificacao": [
+    {
+      "message": "",
+      "id": "212e"
+    },
+    {
+      "id": "e209",
+      "message": "Cancelamento no hotel 1 no quarto\n        2 na data 01/01/2025"
+    },
+    {
+      "id": "d913",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2024"
+    },
+    {
+      "id": "9f71",
+      "message": "Reserva no hotel 1 no quarto 3 na data 01/01/2024"
+    },
+    {
+      "id": "34b6",
+      "message": "Reserva no hotel 2 no quarto 3 na data 01/01/2024"
+    },
+    {
+      "id": "ac9d",
+      "message": "Reserva no hotel 1 no quarto 3 na data 01/01/2028"
+    },
+    {
+      "id": "5c5a",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "60c1",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "1316",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "8c75",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "e299",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "6d96",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "4c8b",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "78fa",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2028"
+    },
+    {
+      "id": "9b24",
+      "message": "Reserva no hotel 3 no quarto 2 na data 01/01/2029"
+    },
+    {
+      "id": "08c6",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2029"
+    },
+    {
+      "id": "ece3",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2030"
+    },
+    {
+      "id": "ebda",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2031"
+    },
+    {
+      "id": "ec17",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2032"
+    },
+    {
+      "id": "f000",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2032"
+    },
+    {
+      "id": "dc4a",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2032"
+    },
+    {
+      "id": "103c",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2033"
+    },
+    {
+      "id": "8088",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2034"
+    },
+    {
+      "id": "3c82",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2034"
+    },
+    {
+      "id": "9509",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2035"
+    },
+    {
+      "id": "5bb6",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2035"
+    },
+    {
+      "id": "5962",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2036"
+    },
+    {
+      "id": "61f4",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2036"
+    },
+    {
+      "id": "d52b",
+      "message": "Reserva no hotel 1 no quarto 2 na data 01/01/2037"
+    },
+    {
+      "id": "100b",
+      "message": "Cancelamento no hotel 1 no quarto 2 na data 01/01/2037"
+    },
+    {
+      "id": "9c58",
+      "message": "Cancelamento no hotel 1 no quarto 2 na data 01/01/2036"
+    }
+  ]
+}
