@@ -1,0 +1,26 @@
+<div class="content">
+
+  <h1 class="title">QUARTOS</h1>
+
+  <table mat-table [dataSource]="quartos" class="mat-elevation-z8 demo-table">
+    <!-- Position Column -->
+    <ng-container matColumnDef="numero">
+      <th mat-header-cell *matHeaderCellDef>Numero do Quarto</th>
+      <td mat-cell *matCellDef="let element">{{element.numero}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="acoes">
+      <th mat-header-cell *matHeaderCellDef>Ações</th>
+      <td mat-cell *matCellDef="let element">
+        <div class="opcoes" style="display: flex; gap:10px; justify-content: center;">
+          <button (click)="onNoClick(element)">RESERVAR</button>
+        </div>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row (click)="clickedRows.add(row)" [class.demo-row-is-clicked]="clickedRows.has(row)"
+      *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+</div>
